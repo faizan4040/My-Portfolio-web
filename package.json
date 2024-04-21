@@ -2,7 +2,7 @@
   "name": "learn",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/faizan4040/My-Portfolio",
+  "homepage": "https://github.com/faizan4040/My-Web-Portfolio.git",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@testing-library/jest-dom": "^5.17.0",
