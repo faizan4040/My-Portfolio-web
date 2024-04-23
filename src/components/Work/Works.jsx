@@ -36,16 +36,13 @@ const handleClick = (e, index)=>{
             <span onClick={(e)=>{
               handleClick(e, index);
             }} className={`${active === index ? 'active-work' : "" }work__item`}
-             key={index}>
-              {item.name}</span>
-          )
-        })}
+             key={index}>{item.name}</span>)})}
          </div>
 
         <div className='work__container container grid'>
-          {project.map((item)=>{
+          {project.map((items)=>{
             return(
-              <WorkItem item={item} key={item.id}/>
+              <WorkItem item={items} key={item.id}/>
             )
           })}
           </div> 
