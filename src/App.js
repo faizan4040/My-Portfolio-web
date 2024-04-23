@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {HashRouter} from "react-router-dom"
+
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -16,8 +16,7 @@ import ScrollUp from './components/scrollup/ScrollUp';
 function App() {
   return (
     <div>
-
-<HashRouter>   
+ 
     <Header/>
 
     <main className='main'>
@@ -33,9 +32,6 @@ function App() {
 
     <Footer/>
     <ScrollUp/>
-
-    
-    </HashRouter>
 
     </div>
 
